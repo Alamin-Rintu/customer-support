@@ -32,7 +32,7 @@
     "description": "Password reset email is not sent to the user.",
     "customer": "David Green",
     "priority": "MEDIUM",
-    "status": "Resolved",
+    "status": "In Progress",
     "createdAt": "2024-01-18"
   },
   {
@@ -77,7 +77,7 @@
     "description": "Product images are not showing on category pages.",
     "customer": "William Clark",
     "priority": "LOW",
-    "status": "Closed",
+    "status": "Open",
     "createdAt": "2024-01-23"
   },
   {
