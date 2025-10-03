@@ -1,13 +1,11 @@
 import React from 'react';
 import vector2 from '../../../assets/vector2.png'
-// import vector2 form '../../../assets/vector2.png'
 import calenderImg from '../../../assets/ri_calendar-line.png'
 
-const Ticket = ({ ticket }) => {
-    console.log(ticket)
+const Ticket = ({ ticket, onClick }) => {
     return (
-        <div >
-            <div className="card bg-base-100 w-full shadow-sm">
+        <div onClick={onClick} className="cursor-pointer">
+            <div className="card bg-base-100 w-full shadow-sm hover:shadow-md transition">
                 <div className="card-body">
                     <h2 className="card-title">
                         {ticket.title}
@@ -21,8 +19,6 @@ const Ticket = ({ ticket }) => {
                                 {ticket.status}
                             </span>
                         </div>
-
-
                     </h2>
                     <p>{ticket.description}</p>
 
