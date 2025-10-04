@@ -1,7 +1,7 @@
 import React from 'react';
 import vectorImg from '../assets/vector1.png'
 
-const Banner = ({inProgress}) => {
+const Banner = ({ inProgress }) => {
     return (
         <section className="w-11/12 mx-auto flex flex-col md:flex-row gap-4 h-auto md:h-[300px] mt-5">
             <div className="w-full md:w-1/2 h-[180px] md:h-auto bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-lg flex flex-col justify-center items-center text-white relative overflow-hidden">
